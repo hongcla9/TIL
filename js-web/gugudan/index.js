@@ -4,19 +4,20 @@ document.querySelector("#click").addEventListener("click", () => {
   //.는 ~의 소유에 있는이라는 뜻 () 는 동작 실행. 쌍따옴표는 문자열을 의미
   //코딩은 순서대로 실행된다.
   const b = document.querySelector("#second").value;
-  const r = document.querySelector("#result");
+
   //로 저장 가능
   if (a) {
     //a 의 값이 있을경우
+    const r = document.querySelector("#result");
     if (b) {
       a * b;
-      document.querySelector("#result").textContent = a * b;
+      r.textContent = a * b;
       //input 은 value 로 가져오고 span 은 textcontent로 가져온다
     } else {
-      document.querySelector("#result").textContent = "두번째값을 입력하세요";
+      r.textContent = "두번째값을 입력하세요";
     }
   } else {
-    document.querySelector("#result").textContent = "첫번째 값을 입력하세요";
+    r.textContent = "첫번째 값을 입력하세요";
   }
 });
 

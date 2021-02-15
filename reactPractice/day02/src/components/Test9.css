@@ -1,0 +1,13 @@
+.Test9 { width: 500px; }
+.Test9 table {width: 100%;}
+.Test9 table .no { width: 10%; }
+.Test9 table .name { width: 20%;}
+.Test9 table .age { width: 20%;}
+.Test9 table .addr { width: 30%; }
+.Test9 table .done {}
+
+.Test9 table th,
+.Test9 table td {border: 1px solid #000; height: 40px;}
+.Test9 table thead th {}
+.Test9 table tbody td { text-indent: 20px;}
+

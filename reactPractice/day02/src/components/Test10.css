@@ -1,0 +1,6 @@
+.Test10 { width: 1600px; margin: auto; }
+.Test10 ul { display: flex; flex-wrap: wrap ; flex-direction: row;}
+.Test10 ul li { width: 250px; height: 450px; border: 1px solid #dcdcdc; padding: 10px; margin: 10px; list-style-type: none; }
+.Test10 ul li img { width: 250px; height: 300px;}
+.Test10 ul li h3 { font-size: 15px; }
+.Test10 ul li p {font-size: 14px; margin-bottom: 5px; }

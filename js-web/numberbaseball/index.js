@@ -22,6 +22,7 @@ for (let n = 0; n <= 3; n++) {
   const Index = Math.floor(Math.random() * (10 - n));
   answer.push(numbers[Index]);
   numbers.splice(Index, 1);
+  //뽑아준 숫자는 지운다 
 }
 console.log(answer);
 

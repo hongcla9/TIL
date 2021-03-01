@@ -1,0 +1,12 @@
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+.Gallery { width: 1200px; margin: 20px; display: flex; flex-direction:row; flex-wrap: wrap; }
+.Gallery article { display: flex; margin-right: 15px; margin-bottom: 15px;}
+.Gallery article .left{width: 250px;}
+.Gallery article .left img {width: 250px; height: 300px;}
+.Gallery article .right {width: 300px; height: 300px; padding: 25px; background: #efefef;box-sizing: border-box;}
+.Gallery article .right h3 {margin-bottom: 20px; font-size: 18px;}
+.Gallery article .right ul {}
+.Gallery article .right ul li{line-height: 45px; border-bottom: 1px solid #dcdcdc; font-size: 14px;}
+.Gallery article .right button {margin-top: 30px; border: none; width: 150px;height: 40px; background: #dcdcdc; transition:0.3s; cursor: pointer;}
+.Gallery article .right button:hover {background: orange;}
